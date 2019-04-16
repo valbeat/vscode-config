@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.autoIndent": false,
 	"search.excludeFolders": [
         ".git",
         "Library",
@@ -9,7 +10,6 @@
     ],
     "workbench.editor.enablePreview": false,
     "editor.wordWrap": "on",
-    "vim.disableAnnoyingNeovimMessage": true,
     "workbench.colorTheme": "Solarized Dark",
     "files.exclude": {
         "**/.git": true,
@@ -55,9 +55,7 @@
     },
     "vim.useSystemClipboard": true,
     "vim.hlsearch": true,
-    "vim.easymotion": true,
     "vim.visualstar": true,
-    "editor.formatOnType": true,
     "editor.renderWhitespace": "boundary",
     "[javascript]": {
         "editor.tabSize": 2
@@ -95,4 +93,28 @@
         ".zshrc.*": "shellscript"
     },
     "extensions.ignoreRecommendations": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#001d2edd" // For a Dark theme 
+    },
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": false,
+    "workbench.editor.enablePreview": false,
+    "memo-life-for-you.memoPath" : "$HOME/memo",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "editor.fontSize": 12,
+    "site": {
+      "scheme": "ftp",
+      "host": "host",
+      "username": "username"
+    },
+    "projectX": {
+      "scheme": "sftp",
+      "host": "host",
+      "username": "username",
+      "privateKeyPath": "/Users/xx/.ssh/id_rsa",
+      "rootPath": "/home/foo/some/projectx"
+    }
+  }
+}
 }
