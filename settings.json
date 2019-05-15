@@ -103,4 +103,5 @@
     "memo-life-for-you.memoPath" : "$HOME/memo",
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "editor.fontSize": 12,
+    "npm.enableScriptExplorer": true,
 }
