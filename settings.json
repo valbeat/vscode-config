@@ -81,7 +81,7 @@
         "editor.formatOnPaste": true
     },
     "[markdown]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.wordWrap": "on",
         "editor.renderWhitespace": "all",
         "editor.acceptSuggestionOnEnter": "off"
@@ -104,4 +104,7 @@
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "editor.fontSize": 12,
     "npm.enableScriptExplorer": true,
+    "prettier.disableLanguages": [
+        "markdown",
+    ]
 }
