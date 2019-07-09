@@ -109,5 +109,12 @@
     ],
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "memo-life-for-you.listSortOrder": "mtime"
+    "memo-life-for-you.listSortOrder": "mtime",
+    "japanese-proofreading.textlint.かっこ類と隣接する文字の間のスペースの有無": false,
+    "japanese-proofreading.textlint.ハイフン(-)": false,
+    "japanese-proofreading.textlint.丸かっこ（）": false,
+    "japanese-proofreading.textlint.全角文字どうし": false,
+    "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+    "japanese-proofreading.textlint.技術用語": false,
+    "japanese-proofreading.textlint.外来語カタカナ表記": false
 }
