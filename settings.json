@@ -121,5 +121,6 @@
     "japanese-proofreading.textlint.句点(。)と読点(、)": false,
     "japanese-proofreading.textlint.固有名詞": false,
     "japanese-proofreading.textlint.一部の助数詞の表記": false,
-    "japanese-proofreading.textlint.ひらく漢字": false
+    "japanese-proofreading.textlint.ひらく漢字": false,
+    "markdown-pdf.displayHeaderFooter": false
 }
