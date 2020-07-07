@@ -3,9 +3,9 @@ My vscode-config
 
 ```
 # Link files
-ln -sfnv ./settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -sfnv ./keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -sfnv ./snippets ~/Library/Application\ Support/Code/User/snippets
+ln -sfnv $(pwd)/settings.json ~/Library/Application\ Support/Code/User/
+ln -sfnv $(pwd)/keybindings.json ~/Library/Application\ Support/Code/User/
+ln -sfnv $(pwd)/snippets ~/Library/Application\ Support/Code/User/
 
 # Install extensions
 cat extensions.txt | xargs -L1 code --install-extension
