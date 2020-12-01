@@ -31,7 +31,7 @@
     "csharp.format.enable": false,
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
     "materialTheme.cache.workbench.settings": {},
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#00BCD4",
         "list.activeSelectionForeground": "#00BCD4",
@@ -122,5 +122,6 @@
     "japanese-proofreading.textlint.一部の助数詞の表記": false,
     "japanese-proofreading.textlint.ひらく漢字": false,
     "markdown-pdf.displayHeaderFooter": false,
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "git.autofetch": true
 }
