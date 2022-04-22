@@ -10,7 +10,7 @@
     ],
     "workbench.editor.enablePreview": false,
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Synthwave x Fluoromachine",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -57,7 +57,8 @@
     "vim.visualstar": true,
     "editor.renderWhitespace": "boundary",
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[ruby]": {
         "editor.tabSize":2
@@ -123,5 +124,14 @@
     "japanese-proofreading.textlint.ひらく漢字": false,
     "markdown-pdf.displayHeaderFooter": false,
     "go.useLanguageServer": true,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "git.ignoreMissingGitWarning": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.mac": "$HOME/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.kubectl-path.mac": "$HOME/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.mac": "$HOME/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    }
 }
