@@ -9,4 +9,7 @@ ln -sfnv $(pwd)/snippets ~/Library/Application\ Support/Code/User/
 
 # Install extensions
 cat extensions.txt | xargs -L1 code --install-extension
+
+# Backup extensions
+code --list-extensions > extensions.txt
 ```
