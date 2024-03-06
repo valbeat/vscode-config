@@ -18,6 +18,7 @@ FallenMax.mithril-emmet
 formulahendry.code-runner
 gamunu.vscode-yarn
 ginfuru.ginfuru-better-solarized-dark-theme
+GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 goessner.mdmath
 golang.go
@@ -51,11 +52,14 @@ ms-mssql.data-workspace-vscode
 ms-mssql.mssql
 ms-mssql.sql-bindings-vscode
 ms-mssql.sql-database-projects-vscode
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 ms-vscode.mono-debug
 ms-vscode.wordcount
